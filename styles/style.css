@@ -1,0 +1,105 @@
+/* FONT AWESOME */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body {
+    margin: 0;
+}
+
+
+/* --------------------
+-----Header Styles ----
+---------------------*/
+
+header {
+    background-color: #2D25A0;
+    height: 677px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.tournament-title {
+    color: #FFFFFF;
+    margin-top: 0;
+    font-family: 'Poppins';
+    font-size: 64px;
+}
+
+.title-img img {
+    height: 428px;
+    width: 556px;
+}
+
+.btn-link {
+    text-decoration: none;
+    padding: 10px 24px;
+    color: white;
+    font-size: 16px;
+    font-family: 'Poppins';
+    background-color: #E02C6D;
+}
+
+
+/*-------------------------
+---- Player List Styles--- 
+-------------------------*/
+
+.player-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.player-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    width: 330px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+.player-card img {
+    width: 320px;
+    height: 256px;
+}
+
+.player-name {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 28px;
+}
+
+.player-details {
+    font-family: 'Poppins';
+    font-size: 16px;
+    color: #6C6C6C;
+}
+
+
+/* Footer Styles */
+
+footer {
+    margin: 158px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.football-logo img {
+    width: 483px;
+    height: 110px;
+}
+
+.social-logo i {
+    font-size: 32px;
+    color: #969BAB;
+    margin-right: 10px;
+}
+
+.copy-right {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Poppins';
+}
