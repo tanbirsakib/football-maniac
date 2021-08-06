@@ -131,6 +131,10 @@
             background-color: #2e8cca;
         }
         
+        .messi-album-card:hover .player-details {
+            color: white;
+        }
+        
         .messi-album-card img {
             width: 290px;
         }
@@ -158,13 +162,12 @@
         .achievement {
             display: flex;
             flex-direction: column;
-            /* justify-content: space-evenly; */
             align-items: center;
             box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
         }
         
         .achievement:hover {
-            box-shadow: 0 3px 6px rgba(15, 5, 158, 0.363), 0 3px 6px rgba(8, 17, 143, 0.349);
+            box-shadow: 0 3px 6px rgba(15, 5, 158, 0.363), 0 3px 6px rgba(8, 17, 143, 0.952);
         }
         
         .achievement img {
