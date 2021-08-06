@@ -10,7 +10,7 @@ body {
 -----Header Styles ----
 ---------------------*/
 
-header {
+.tournament-header {
     background-color: #2D25A0;
     height: 677px;
     display: flex;
@@ -56,6 +56,7 @@ header {
 .player-card {
     padding: 10px;
     width: 330px;
+    border-radius: 5px;
     box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.15);
 }
 
@@ -77,7 +78,9 @@ header {
 }
 
 
-/* Footer Styles */
+/* ---------------------------
+-------Footer Styles----------
+------------------------------ */
 
 footer {
     margin: 158px 0;
@@ -103,3 +106,13 @@ footer {
     font-weight: 400;
     font-family: 'Poppins';
 }
+
+
+/* ---------------------------
+-------Media Queries----------
+------------------------------*/
+
+
+/*-------------------------
+------ Mobile Devices -----
+--------------------------*/
