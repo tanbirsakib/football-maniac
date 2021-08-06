@@ -1,6 +1,9 @@
         /* FONT AWESOME */
         
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+        /* Body Style   */
+        
         body {
             margin: 0;
         }
@@ -10,8 +13,8 @@
         
         .tournament-header {
             background-color: #6fadd6;
-            height: 677px;
             display: flex;
+            padding-top: 50px;
             justify-content: space-evenly;
             align-items: center;
             margin-bottom: 70px;
@@ -66,6 +69,7 @@
         
         .player-card img {
             width: 320px;
+            padding-left: 3px;
             height: 256px;
         }
         
@@ -85,9 +89,9 @@
 ------------------------------- */
         
         .messi {
-            background-color: #d44872;
-            padding: 10px;
-            margin-top: 50px;
+            background-color: #6FADD6;
+            padding: 20px;
+            margin: 50px 0;
             display: flex;
             justify-content: space-evenly;
         }
@@ -104,7 +108,7 @@
             color: #FFFFFF;
             margin-top: 0;
             font-family: 'Poppins';
-            font-size: 35px
+            font-size: 50px;
         }
         
         .messi-album {
@@ -120,15 +124,56 @@
             height: 235px;
             border-radius: 5px;
             text-align: center;
-            background-color: rgb(224, 198, 207);
+            background-color: #56a6db;
         }
         
         .messi-album-card:hover {
-            background-color: rgb(235, 160, 187);
+            background-color: #2e8cca;
         }
         
         .messi-album-card img {
             width: 290px;
+        }
+        /*-------------------------
+        ------Mrssi Achievemnets --
+        --------------------------*/
+        
+        .achiievment-title {
+            color: #3599db;
+            text-align: center;
+            margin-top: 0;
+            font-family: 'Poppins';
+            font-size: 50px;
+        }
+        
+        .achievements {
+            margin-top: 40px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 10px;
+            width: 1000px;
+            margin: 0 auto;
+        }
+        
+        .achievement {
+            display: flex;
+            flex-direction: column;
+            /* justify-content: space-evenly; */
+            align-items: center;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+        }
+        
+        .achievement img {
+            width: 150px;
+            height: 150px;
+        }
+        
+        .title-num {
+            font-family: 'Bebas Neue', cursive;
+            color: #6C6C6C;
+            ;
+            font-size: 50px;
+            font-weight: 700;
         }
         /* ---------------------------
 -------Footer Styles----------
@@ -165,4 +210,34 @@
 ------ Mobile Devices -----
 --------------------------*/
         
-        @media screen {}
+        @media only screen and (max-width:688px) {
+            .tournament-header {
+                background-color: yellow;
+                flex-direction: column;
+                width: 100%;
+            }
+            .title-img img {
+                width: 90%;
+            }
+            .player-list {
+                grid-template-columns: repeat(1, 1fr);
+            }
+            .player-card,
+            .achievement,
+            footer {
+                width: 100%;
+            }
+            .player-card img {
+                width: auto;
+            }
+            .messi {
+                flex-direction: column;
+            }
+            .messi-album {
+                grid-template-columns: repeat(1, 1fr);
+            }
+            .achievements {
+                grid-template-columns: repeat(1, 1fr);
+                width: 100%;
+            }
+        }
