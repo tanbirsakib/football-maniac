@@ -1,118 +1,166 @@
-/* FONT AWESOME */
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
-body {
-    margin: 0;
-}
-
-
-/* --------------------
+        /* FONT AWESOME */
+        
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+        body {
+            margin: 0;
+        }
+        /* --------------------
 -----Header Styles ----
 ---------------------*/
-
-.tournament-header {
-    background-color: #2D25A0;
-    height: 677px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-bottom: 70px;
-}
-
-.tournament-title {
-    color: #FFFFFF;
-    margin-top: 0;
-    font-family: 'Poppins';
-    font-size: 64px;
-}
-
-.title-img img {
-    height: 428px;
-    width: 556px;
-}
-
-.btn-link {
-    text-decoration: none;
-    padding: 10px 24px;
-    color: white;
-    font-size: 16px;
-    font-family: 'Poppins';
-    background-color: #E02C6D;
-}
-
-
-/*-------------------------
+        
+        .tournament-header {
+            background-color: #6fadd6;
+            height: 677px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            margin-bottom: 70px;
+        }
+        
+        .tournament-title {
+            color: #FFFFFF;
+            margin-top: 0;
+            font-family: 'Poppins';
+            font-size: 64px;
+        }
+        
+        .title-img img {
+            height: 500px;
+            width: 556px;
+        }
+        
+        .title-img {
+            transition: transform 3s;
+        }
+        
+        .title-img:hover {
+            transform: rotate(-90deg);
+        }
+        
+        .btn-link {
+            text-decoration: none;
+            padding: 10px 24px;
+            color: white;
+            font-size: 16px;
+            font-family: 'Poppins';
+            background-color: #E02C6D;
+        }
+        /*-------------------------
 ---- Player List Styles--- 
 -------------------------*/
-
-.player-list {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 27px;
-    width: 1100px;
-    margin: 0 auto;
-}
-
-.player-card {
-    padding: 10px;
-    width: 330px;
-    border-radius: 5px;
-    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.15);
-}
-
-.player-card img {
-    width: 320px;
-    height: 256px;
-}
-
-.player-name {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-size: 28px;
-}
-
-.player-details {
-    font-family: 'Poppins';
-    font-size: 16px;
-    color: #6C6C6C;
-}
-
-
-/* ---------------------------
+        
+        .player-list {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 27px;
+            width: 1100px;
+            margin: 0 auto;
+        }
+        
+        .player-card {
+            padding: 10px;
+            width: 330px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.15);
+        }
+        
+        .player-card img {
+            width: 320px;
+            height: 256px;
+        }
+        
+        .player-name {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-size: 28px;
+        }
+        
+        .player-details {
+            font-family: 'Poppins';
+            font-size: 16px;
+            color: #6C6C6C;
+        }
+        /* ----------------------------
+------Messi Section Style------
+------------------------------- */
+        
+        .messi {
+            background-color: #d44872;
+            padding: 10px;
+            margin-top: 50px;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        
+        .messi-title {
+            color: #FFFFFF;
+            margin-top: 0;
+            padding-top: 30px;
+            font-family: 'Poppins';
+            font-size: 50px;
+        }
+        
+        .video-title {
+            color: #FFFFFF;
+            margin-top: 0;
+            font-family: 'Poppins';
+            font-size: 35px
+        }
+        
+        .messi-album {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 20px;
+            padding: 30px 0 20px 0;
+        }
+        
+        .messi-album-card {
+            width: 300px;
+            padding: 10px;
+            height: 235px;
+            border-radius: 5px;
+            text-align: center;
+            background-color: rgb(224, 198, 207);
+        }
+        
+        .messi-album-card:hover {
+            background-color: rgb(235, 160, 187);
+        }
+        
+        .messi-album-card img {
+            width: 290px;
+        }
+        /* ---------------------------
 -------Footer Styles----------
 ------------------------------ */
-
-footer {
-    margin: 158px 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.football-logo img {
-    width: 483px;
-    height: 110px;
-}
-
-.social-logo i {
-    font-size: 32px;
-    color: #969BAB;
-    margin-right: 10px;
-}
-
-.copy-right {
-    font-size: 18px;
-    font-weight: 400;
-    font-family: 'Poppins';
-}
-
-
-/* ---------------------------
+        
+        footer {
+            margin: 100px 0 5px 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .football-logo img {
+            width: 483px;
+            height: 110px;
+        }
+        
+        .social-logo i {
+            font-size: 32px;
+            color: #969BAB;
+            margin-right: 10px;
+        }
+        
+        .copy-right {
+            font-size: 18px;
+            font-weight: 400;
+            font-family: 'Poppins';
+        }
+        /* ---------------------------
 -------Media Queries----------
 ------------------------------*/
-
-
-/*-------------------------
+        /*-------------------------
 ------ Mobile Devices -----
 --------------------------*/
