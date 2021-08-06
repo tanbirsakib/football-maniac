@@ -219,7 +219,6 @@
         
         @media only screen and (max-width:688px) {
             .tournament-header {
-                background-color: yellow;
                 flex-direction: column;
                 width: 100%;
             }
@@ -228,6 +227,7 @@
             }
             .player-list {
                 grid-template-columns: repeat(1, 1fr);
+                width: 100%;
             }
             .player-card,
             .achievement,
